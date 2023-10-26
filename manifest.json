@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Welcome Extension",
+    "version": "1.0",
+    "description": "This is a welcome extension for the welcome.",
+    "author": "Madan Lal",
+    "icons": {
+        "128": "icon.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "128": "icon.png"
+        }
+    }
+}

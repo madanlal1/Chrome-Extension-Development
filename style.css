@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(32, 29, 29);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#innerDiv {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 8px;
+}
